@@ -35,6 +35,7 @@ rails g devise:install
 rails g devise:views
 rails g devise User 
 
+rails g migration AddUserToThemes user:references 
 
 # bd 
 

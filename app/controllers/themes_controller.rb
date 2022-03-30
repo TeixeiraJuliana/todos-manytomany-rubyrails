@@ -3,6 +3,8 @@ class ThemesController < ApplicationController
 
   # GET /themes or /themes.json
   def index
+
+    
     @themes = Theme.all
   end
 
@@ -12,7 +14,7 @@ class ThemesController < ApplicationController
 
   # GET /themes/new
   def new
-    @theme = Theme.new
+    @theme = current_user.themes.new
   end
 
   # GET /themes/1/edit
@@ -21,7 +23,7 @@ class ThemesController < ApplicationController
 
   # POST /themes or /themes.json
   def create
-    @theme = Theme.new(theme_params)
+    @theme = current_user.themes.new(theme_params)
 
     respond_to do |format|
       if @theme.save
