@@ -69,5 +69,9 @@
     img{
         width: 100%;
     }
+    #navbar  img{
+        width: 50%;
+        height: 50%;
+    }
 
 }

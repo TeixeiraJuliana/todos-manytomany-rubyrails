@@ -42,12 +42,10 @@ body{
     width: 100%;
 }
 #navbar ul{
+    width: 100%;
     height: 90px;
 }
-#navbar  img{
-    width: 50%;
-    height: 50%;
-}
+
 #footer-home{
     width: 100%;
     height: 180px;

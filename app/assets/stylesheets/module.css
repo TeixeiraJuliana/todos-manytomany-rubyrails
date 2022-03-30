@@ -12,6 +12,18 @@ body{
     align-items: center;
     margin: 0 auto;
 }
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-show{
+    margin-top: 15px;
+}
+.content strong{
+    margin-bottom: 10px;
+}
 .item-card{
     display: flex;
     flex-direction: column;
@@ -66,7 +78,7 @@ body{
 }
 
 .table-body > .table-rows div{
-    justify-content: flex-start;
+    justify-content: center;
 }
 .table-head > .table-rows div{
     justify-content: center;

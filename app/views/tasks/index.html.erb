@@ -17,7 +17,7 @@
             <div class="table-rows">
               <div><%= task.title %></div>
               <div><%= task.description %></div>
-              <div><%= task.themes_id %></div>
+              <div>Lista id: <%= task.themes_id %></div>
               <div class="table-options">
                 <div><%= link_to image_tag("options.png", :alt => "rss feed"), task %> </div>
                 <div><%= link_to  image_tag("update.png", :alt => "rss feed"), edit_task_path(task) %></div>
@@ -30,5 +30,5 @@
     </div>
   </div>
   <br>
-  <%= link_to 'New Task', new_task_path %>
+  <%= link_to 'Cadastrar tarefa', new_task_path %>
 </div>

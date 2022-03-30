@@ -154,7 +154,11 @@ label {
 
 
 
-
+<ul>
+    <% @theme.tasks.each do |todo| %>
+        <li><%= " #{todo.title} - #{todo.description} " %></li>
+    <% end %>
+</ul>
 
 
 
