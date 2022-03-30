@@ -12,6 +12,9 @@
 .container h1{
     color: var(--color-green-cream);
 }
+.container a{
+    color: var(--color-green-cream);
+}
 #navbar ul{
     background-color: var(--color-green-strong);
 }
@@ -20,5 +23,8 @@
 }
 
 #footer-home{
+    background-color: var(--color-grey);
+}
+.table-row::-webkit-scrollbar {
     background-color: var(--color-grey);
 }

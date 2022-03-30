@@ -11,22 +11,22 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="  item-card">
     <%= form.label :title %>
     <%= form.text_field :title %>
   </div>
 
-  <div class="field">
+  <div class="field  item-card">
     <%= form.label :description %>
     <%= form.text_field :description %>
   </div>
 
-  <div class="field">
+  <div class="field  item-card">
     <%= form.label :theme_id %>
     <%= form.collection_select( :themes_id, Theme.all, :id , :title_list, prompt: true) %>
   </div>
 
-  <div class="actions">
+  <div class="actions  item-card">
     <%= form.submit %>
   </div>
 <% end %>

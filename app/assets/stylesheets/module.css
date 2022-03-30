@@ -1,27 +1,35 @@
-
+body{
+    overflow: hidden;
+}
 .main{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .container{
-    background-color: rgb(153, 106, 106)olid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
-.content{
+.item-card{
+    display: flex;
+    flex-direction: column;
 }
-#footer-home{
+.item-card input,
+.item-card select
+{
+    padding: 15px;
+}
+.item-card label{
+    margin-bottom: 5px;
+}
+.actions, #footer-home{
+    margin-top: 10px;
     text-align: center;
-    background-color: 1px solid rgb(245, 241, 241);
 }
 .container h1{
-    margin-top: 15px;
-}
-.container a{
-}
-.container label{
-}
-.container input{
+    margin: 15px;
 }
 #navbar label {
     display: none;
@@ -35,4 +43,31 @@
 }
 #navbar ul li a{
     text-decoration: none;
+}
+.table-row{
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.table-row::-webkit-scrollbar {
+    width: 5px;
+}
+.table-head{
+    display: flex;
+}
+.table-rows{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px -2px gray;
+}
+.table-body > .table-rows div, 
+.table-head > .table-rows div{
+    display: flex;
+    align-items: center;
+}
+
+.table-body > .table-rows div{
+    justify-content: flex-start;
+}
+.table-head > .table-rows div{
+    justify-content: center;
 }

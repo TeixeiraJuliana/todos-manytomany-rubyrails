@@ -5,11 +5,11 @@
     }
     nav{
         background-color: var(--color-grey);
-        width: 100vw;
+        width: 350px;
         height: 100%;
         /*position: relative; como ul tem position absolute considerará este o pai, pois é o unico com este atributo*/
         position: absolute;
-        left: -100%;
+        left: -352px;
         transition: all .5s;
         overflow: hidden;
     }
@@ -35,6 +35,39 @@
         z-index: 1; /*traz um elemento para frente*/
         display: flex;
     }
-    
+    .item-card{
+        width: 100%;
+        height: 100%;
+    }
+    .content{
+        max-height: 500px;
+    }
+    .table{
+        width: 100%;
+    }
+    .table-head .table-rows div{
+        display: none;
+
+    }
+    .table-rows{
+        max-width: 300px;
+        
+    }
+    .table-row div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px;
+    } 
+    .table-row .table-options{
+        display: flex;
+        max-height: 100%;
+        align-items: center;
+        flex-direction: row;
+    }
+    img{
+        width: 100%;
+    }
 
 }

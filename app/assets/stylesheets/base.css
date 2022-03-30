@@ -11,22 +11,42 @@ body{
     max-width: 1200px;
     height: 100%;
 }
+.card{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 400px;
+}
 .content{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
-.content a{
-    background-color: rgb(185, 181, 181);
+.table{
+    width: 100%;
 }
-.content label{
+.table-rows{
+    width: 100%;
 }
-.content input{ 
+.table-rows div{
+    width: 100%;
+}
+.table-body > .table-rows div{
+    height: 60px;
+}
+.table-row{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
 }
 #navbar{
     width: 100%;
 }
 #navbar ul{
     height: 90px;
+}
+#navbar  img{
+    width: 50%;
+    height: 50%;
 }
 #footer-home{
     width: 100%;
@@ -35,4 +55,8 @@ body{
 #menu img{
     width: 10%;
     height: 10%;
+}
+.container img{
+    width: 25px;
+    height: 25px;
 }
