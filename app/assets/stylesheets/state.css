@@ -1,0 +1,3 @@
+#navbar input:checked ~ nav {
+    transform: translatex(350px);
+}

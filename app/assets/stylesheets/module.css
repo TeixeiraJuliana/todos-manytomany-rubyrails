@@ -1,0 +1,36 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content{
+    background-color: rgb(180, 185, 138);
+}
+
+.container a{
+}
+.container label{
+}
+.container input{
+}
+#navbar a{
+    display: block;
+    text-decoration: none; 
+    text-transform: uppercase;
+    padding: 20px 5px;
+    padding-left: 40px;
+}
+
+#navbar ul{
+    list-style: none; 
+    top: 70px;
+    position: absolute; 
+    padding-inline-start: 0;
+    
+}
