@@ -1,4 +1,24 @@
-
+:root {
+    --color-neutral:#ffffff;
+    --color-green-cream: #205d68;
+    --color-green-strong:#00363d;
+    --color-green-light:#a9fdac;
+    --color-bolhas-claras:#ecedef;
+    --color-grey:#3e5c62;
+  }
+.container{
+  
+}
+.container h1{
+    color: var(--color-green-cream);
+}
+#navbar ul{
+    background-color: var(--color-green-strong);
+}
 #navbar a{
-    color: white;
+    color: var(--color-neutral);
+}
+
+#footer-home{
+    background-color: var(--color-grey);
 }

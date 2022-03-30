@@ -1,37 +1,6 @@
 
-#menu img{
-    width: 10%;
-    height: 10%;
-    }
-input[type='checkbox']{
-    display: none;
-}
-nav{
-    
-    background-color: rgba(16,16,16,.5);
-    width: 350px;
-    height: 100%;
-    /*position: relative; como ul tem position absolute considerará este o pai, pois é o unico com este atributo*/
-    position: absolute;
-    left: -350px;
-    transition: all .5s;
-    overflow: hidden;
-}
-#navbar a:hover{
-    background-color: rgb(176,224,230);
-    color: black;
-    padding: auto;
-   
-    
-}
-#navbar label{
-    padding: 15px;
-    position: absolute;
-    left: 0;
-    z-index: 1; /*traz um elemento para frente*/
-    display: flex;
 
-}
-#navbar input:checked ~ nav {
-    transform: translatex(350px);
-}
+
+
+
+

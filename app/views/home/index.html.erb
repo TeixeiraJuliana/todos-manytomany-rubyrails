@@ -1,22 +1,23 @@
 <div class="main">
+    <div id="navbar">
+        <input type="checkbox" id="chec">
+        <label id="menu"  for="chec">
+            <%= image_tag("button.png", :alt => "rss feed") %>
+        </label>
+        <nav >
+            <ul>
+                 <%= image_tag("Logo-Visagio-Branco.svg", :alt => "rss feed") %>
+                <li><a href=""><%= %></a></li>
+                <li><a href="/themes">Listas</a></li>
+                <li><a href="/tasks">Tarefas</a></li>
+                <li><a href="/themes/new">Nova lista</a></li>
+                <li><a href="/tasks/new">Nova tarefa</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="container">
-        <div id="navbar">
-            <input type="checkbox" id="chec">
-            <label id="menu"  for="chec">
-                <%= image_tag("button.png", :alt => "rss feed") %>
-            </label>
-            <nav >
-                <ul>
-                    <li><a href=""><%= %></a></li>
-                    <li><a href="">novidades</a></li>
-                    <li><a href="">tutoriais</a></li>
-                    <li><a href="">contato</a></li>
-                    <li><a href="">sobre</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <h1>Home</h1>
-        </div>
+        <h1>Home</h1>
+    </div>
+    <div id="footer-home">
     </div>
 </div>
